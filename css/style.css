@@ -1,13 +1,19 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #efeee7;
+  font-family: "Georgia", "Times New Roman", "Times", "serif";
+  color: #333333;
 }
 header {
-	background-color: #333333;
+	background-color: black;
 }
 h1 {
-	background-color: #eee;
+	background-color: #333333;
 	font-size: 28px;
+	color: #eee;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 h2 {
 	font-size: 24px;
@@ -21,6 +27,7 @@ h2 {
 }
 #bio-image {
 	width: 200px;
+	margin-left: 10px;
 }
 #main-bio {
 	width: 70%;
@@ -32,24 +39,3 @@ h2 {
 a {
 	color: #d21034;
 }
-/*body > div {
-	background-color: rgb(242, 236, 208);
-}
-td {
-	color: red;
-}
-section {
-	display: inline;
-}
-#intro-section {
-
-}
-#contact-info-section {
-	float: right;
-}
-#main-header {
-	color: white;
-}
-table > tr > td {
-	color: rgb(173, 62, 34);
-}*/
